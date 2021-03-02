@@ -97,8 +97,8 @@
 <form action="http://fe.it-academy.by/TestForm.php" method="post">
     <fieldset>
         <legend>Координаты:</legend>
-        <input type="email" placeholder="введите адрекс почты"><br>
-        <input type="url" placeholder="введите адрес сайта">
+        <input type="email" placeholder="введите адрекс почты">email: проверка должна осуществляться при помощи новых атрибутов тега &ltinput&gt)<br>
+        <input type="url" placeholder="введите адрес сайта">url: проверка должна осуществляться при помощи новых атрибутов тега &ltinput&gt
     </fieldset>
 </form>
 <form action="http://fe.it-academy.by/TestForm.php" method="post">
@@ -106,6 +106,13 @@
         <legend>Цифры</legend>
         <input type="number" min="-2.5" max="2.5" size="0.1">number: Диапозон от -2.5 до 2.5 с шагом 0.1<br>
         <input type="range" min="1" max="10">range: Максимальное 10 минимально 1
+    </fieldset>
+</form>
+<form action="http://fe.it-academy.by/TestForm.php" method="post">
+    <fieldset>
+        <legend>Кнопки управления</legend>
+        <input type="submit" name="отправить">
+        <input type="submit" name="сбросить"><br>
     </fieldset>
 </form>
 
