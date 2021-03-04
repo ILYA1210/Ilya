@@ -10,9 +10,9 @@
 <form  action="http://fe.it-academy.by/TestForm.php" method="post">
     <fieldset>
         <legend>Личные данные</legend>
-        <input type="text" placeholder="Фамилия" required maxlength="25" pattern="^[А-Я][а-я]"  autofocus>text: Только кириллица, без пробелов, длина поля 25, обязательное поле, автофокус на данном поле)<br>
-        <input type="text" placeholder="Имя" required maxlength="20" pattern="^[А-Я][а-я]">text: Только кириллица, без пробелов, длина поля 20, обязательное поле)<br>
-        <input type="text" placeholder="Отчество" required maxlength="24" pattern="^[А-Я][а-я]">text: Только кириллица, без пробелов, длина поля 24, обязательное поле)
+        <input type="text" placeholder="Фамилия" name="surname" required maxlength="25" pattern="^[А-Я][а-я]"  autofocus>text: Только кириллица, без пробелов, длина поля 25, обязательное поле, автофокус на данном поле)<br>
+        <input type="text" placeholder="Имя" name="name" required maxlength="20" pattern="^[А-Я][а-я]">text: Только кириллица, без пробелов, длина поля 20, обязательное поле)<br>
+        <input type="text" placeholder="Отчество" name="patronymic" required maxlength="24" pattern="^[А-Я][а-я]">text: Только кириллица, без пробелов, длина поля 24, обязательное поле)
         <form action="http://fe.it-academy.by/TestForm.php" method="post">
             <fieldset>
                 <legend>Паспортные данные</legend>
@@ -73,9 +73,9 @@
                         <option value="3">Неразлучник</option>
                     </optgroup>
                     <optgroup label="Рыба">
-                        <option value="4">Караси</option>
-                        <option value="5">Окуни</option>
-                        <option value="6">Осетр</option>
+                        <option value="1">Караси</option>
+                        <option value="2">Окуни</option>
+                        <option value="3">Осетр</option>
                     </optgroup>
                     <optgroup label="Птицы">
                         <option value="7">Стая ворон</option>
