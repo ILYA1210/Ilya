@@ -1,0 +1,31 @@
+h1{
+    color: red;
+    font-style: italic;
+}
+p{
+    color: green;
+}
+body{
+    color: violet;
+}
+.aaa{
+    color: blue;
+    font-weight: bold;
+}
+.bbb{
+    background-color: brown;
+    color: aqua;
+}
+#ccc{
+    color: chartreuse;
+
+}
+div span{
+    font-size: 72px;
+}
+.qqq{
+    background-color: #dc143c;
+}
+p.qqq{
+    background-color: darkmagenta;
+}
